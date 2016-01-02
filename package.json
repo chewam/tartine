@@ -1,0 +1,29 @@
+{
+  "name": "tartatine",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "./node_modules/webpack/bin/webpack.js --color --progress",
+    "watch": "./node_modules/webpack/bin/webpack.js --color --progress --watch"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "bootstrap": "^3.3.6",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "less-middleware": "1.0.x",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "imports-loader": "^0.6.5",
+    "jquery": "^2.1.4",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  }
+}
